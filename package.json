@@ -1,0 +1,27 @@
+{
+  "name": "minecraft-server-icebox",
+  "version": "0.1.0",
+  "description": "A Minecraft server watcher, which suspends a server when empty to reduce CPU load",
+  "main": "src/minecraft-server-icebox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/throwawAPI/minecraft-server-icebox.js.git"
+  },
+  "keywords": [
+    "minecraft",
+    "minecraft server",
+    "server tools"
+  ],
+  "author": "throwawAPI (Grant Sparks)",
+  "license": " GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/throwawAPI/minecraft-server-icebox.js/issues"
+  },
+  "homepage": "https://github.com/throwawAPI/minecraft-server-icebox.js#readme",
+  "dependencies": {
+    "minecraft-protocol": "^1.30.0"
+  }
+}
